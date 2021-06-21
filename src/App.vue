@@ -1,4 +1,5 @@
 <template>
+<<<<<<< HEAD
   <div id="app">
     <img alt="Vue logo" src="./assets/logo.png">
     <HelloWorld msg="Welcome to Your Vue.js App"/>
@@ -26,3 +27,10 @@ export default {
   margin-top: 60px;
 }
 </style>
+=======
+  <nav-bar />
+  <main class="px-4 py-10">
+    <router-view />
+  </main>
+</template>
+>>>>>>> chore: init
